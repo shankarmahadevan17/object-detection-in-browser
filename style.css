@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+canvas {
+  display:block;
+  
+}
+.container1 {
+  margin: 0;
+  padding: 0;
+
+  
+  top: -90px;
+  justify-content: center;
+  transform: translateX(150px);
+  align-items: center;
+}
+
+.special-card {
+  
+  
+    background-color: rgba(245, 245, 245, .2);
+    
+}

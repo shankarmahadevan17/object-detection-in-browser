@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Web Cam object detection</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="intro-left">
+      <div class="container-fluid full-height">
+        <div class="row text-center align-items-center full-height">
+          <div class="col">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container">
+                    <ahref="#" class="navbar-brand"><p class="display-6">Web Cam Object Detection</p></ahref>
+            </nav>
+            </div>
+
+              
+          
+            <p>using ml5js</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <img src="download.jpg" class="float-right"></img>
+    
+           
+        
+          <section class="intro">
+            <h1 class="display-4">It refers to the capability of computer and software systems </h1>
+            <h2 class="display-6 mb-5">to locate objects in webcam and identify each object.</h2>
+
+                
+            <p>
+                <style>
+                    #example2{
+                     width: 500px;
+                     height:50px;  
+                     background: rgba(53, 68, 63, 0.555);
+                     transition-property: width;
+                     transition-duration: 5s;
+                     transition-timing-function: linear;
+                     transition-delay: 0s;
+                     font-size: large;
+                     font-weight:500;
+                     
+                      }
+                     #example2:hover {
+                        width: 750px;
+                     
+                      }
+                  </style>
+                   <div id="example2">
+                          Real-time object detection system using either YOLO or CocoSsd model
+                   </div>
+            </p>
+          </section>
+          
+        
+
+      
+   <div class=container1>
+       <div>   
+          <script src="sketch.js"></script>
+        </div> 
+   </div>
+  <div class="d-flex">
+
+    
+    <div class="card text-white bg-success mb-3 mt-4" style="height: auto;">
+        <div class="card-header">SCROLL DOWN FOR WEBCAM</div>
+        <div class="card-body special-card" style="height: auto;">
+            <h5 class="card-title">NOTE :</h5>
+            <p class="card-text">SOME OBJECTS CANNOT BE DETECTED BY THIS MODEL</p>
+        </div>
+    </div>
+    <br></br>
+    
+        
+                                                                                                          
+    
+   </div>  
+ </body>
+</html>
