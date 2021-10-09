@@ -94,6 +94,8 @@ div.container-fluid {
 
 img.img-thumbnail {
   border: 2px solid black;
+  height: 700px;
+  width: 1400px;
 }
 
 #example {
@@ -175,6 +177,11 @@ main {
     margin-left: 13em;
     margin-right: 4em;
   }
+  img.img-thumbnail {
+    border: 2px solid black;
+    height: 500px;
+    width: 1200px;
+  }
 }
 @media only screen and (max-width: 778px) {
   main {
@@ -184,6 +191,11 @@ main {
     margin-left: 11em;
     margin-right: 4em;
   }
+  img.img-thumbnail {
+    border: 2px solid black;
+    height: 400px;
+    width: 1000px;
+  }
 }
 @media only screen and (max-width: 660px) {
   main {
@@ -192,5 +204,10 @@ main {
   div.d-flex {
     margin-left: 7em;
     margin-right: 4em;
+  }
+  img.img-thumbnail {
+    border: 2px solid black;
+    height: 300px;
+    width: 900px;
   }
 }
