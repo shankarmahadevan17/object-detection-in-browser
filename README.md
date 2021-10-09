@@ -15,7 +15,7 @@ Sorry for the bad clarity, I have an old camera.But still it works. The  model I
 I have created a basic website , where you can use your webcam for object detection in your browser.
 :smile:
 
-![LINK FOR THE WEBSITE](https://shankarmahadevan17.github.io/object-detection-in-browser/)
+[LINK FOR THE WEBSITE](https://shankarmahadevan17.github.io/object-detection-in-browser/)
 
 
 
