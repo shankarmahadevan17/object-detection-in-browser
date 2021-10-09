@@ -11,7 +11,7 @@ canvas {
   padding: 0;
   top: -90px;
   justify-content: center;
-  transform: translateX(150px);
+  /*transform: translateX(150px);*/
   align-items: center;
 }
 
@@ -82,9 +82,9 @@ div.container-fluid {
   background-color: rgba(51, 116, 168, 0.253);
   background-image: linear-gradient(
     to right,
-    rgb(221, 127, 127),
-    rgb(114, 114, 221),
-    rgb(94, 235, 38)
+    rgba(0, 0, 0, 0.308),
+    rgba(255, 255, 255, 0.329),
+    rgba(0, 0, 0, 0.281)
   );
 }
 
@@ -98,6 +98,7 @@ img.img-thumbnail {
 
 #example {
   margin-top: 60px;
+  margin-left: 10px;
 }
 
 #example:hover {
@@ -106,8 +107,90 @@ img.img-thumbnail {
 
 h5.text {
   text-align: Center;
+  padding-top: 1em;
 }
 
 div.d-flex {
-  margin-left: 2em;
+  margin-left: 24em;
+}
+
+@media only screen and (max-width: 630px) {
+  h3.display-6 {
+    font-size: 30px;
+  }
+  div.d-flex {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+}
+@media only screen and (max-width: 430px) {
+  h3.display-6 {
+    font-size: 25px;
+  }
+  div.d-flex {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+ul {
+  list-style: square inside url("sqpurple.gif");
+}
+
+main {
+  padding-left: 18em;
+  background-color: rgba(51, 116, 168, 0.253);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.308),
+    rgba(255, 255, 255, 0.329),
+    rgba(0, 0, 0, 0.281)
+  );
+}
+
+@media only screen and (max-width: 1100px) {
+  main {
+    padding-left: 14em;
+  }
+  div.d-flex {
+    margin-left: 20em;
+    margin-right: 4em;
+  }
+}
+
+@media only screen and (max-width: 966px) {
+  main {
+    padding-left: 11em;
+  }
+  div.d-flex {
+    margin-left: 18em;
+    margin-right: 4em;
+  }
+}
+@media only screen and (max-width: 875px) {
+  main {
+    padding-left: 7em;
+  }
+  div.d-flex {
+    margin-left: 13em;
+    margin-right: 4em;
+  }
+}
+@media only screen and (max-width: 778px) {
+  main {
+    padding-left: 5em;
+  }
+  div.d-flex {
+    margin-left: 11em;
+    margin-right: 4em;
+  }
+}
+@media only screen and (max-width: 660px) {
+  main {
+    padding-left: 1em;
+  }
+  div.d-flex {
+    margin-left: 7em;
+    margin-right: 4em;
+  }
 }
